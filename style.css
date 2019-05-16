@@ -1,0 +1,14 @@
+.iframe-square {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+
+
+html {
+  background-color: grey;
+}
+
+.slider{
+}
