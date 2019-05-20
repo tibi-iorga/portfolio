@@ -3,10 +3,46 @@ html {
   background-color: grey;
 }
 
-.slider{
-  width: 80vw;
-  height: 50vw;
-  margin: auto;
+.side-menu {
+  height: 100vw;
+  width: 10vw;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #292929;
+  overflow-x: hidden;
+  padding: 2vw;
+}
+
+
+
+.myname {
+  font-size: 30px;
+  font-family: Helvetica, sans-serif;
+  color: white;
+  padding-bottom: 10%;
+}
+
+.smwork {
+  width: 60vw;
+  height: 40vw;
+  float: right;
+  padding-right: 13vw;
+  padding-top: 1vw;
+}
+
+a {
+  font-style: normal;
+  color: white;
+  line-height: 2vw;
+}
+
+.slider-nav {
+  font-family: Helvetica, sans-serif;
+  font-size: 3vw;
+  padding: 0.3vw;
+
 }
 
 .video-square iframe{
@@ -15,8 +51,8 @@ html {
   margin-right: auto;
   margin-top: auto;
   margin-bottom: auto;
-  width: 50vw;
-  height: 50vw;
+  width: 40vw;
+  height: 40vw;
 }
 
 .video-vertical iframe{
@@ -25,5 +61,5 @@ html {
   margin-right: auto;
   margin-top: auto;
   margin-bottom: auto;
-  height: 50vw;
+  height: 40vw;
 }
