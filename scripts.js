@@ -10,5 +10,7 @@ $('.slider').slick({
  asNavFor: '.slider-nav',
  dots: true,
  centerMode: true,
- focusOnSelect: true
+ focusOnSelect: true,
+ infinite: true,
+
 });

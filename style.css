@@ -1,9 +1,10 @@
 
 html {
-  background-color: grey;
+  background-color: white;
 }
 
 .side-menu {
+  font-size: 1.5vw;
   height: 100vw;
   width: 10vw;
   position: fixed;
@@ -12,10 +13,10 @@ html {
   left: 0;
   background-color: #292929;
   overflow-x: hidden;
-  padding: 2vw;
+  padding-left: 2vw;
+  padding-right: 3vw;
+  padding-top: 4vw;
 }
-
-
 
 .myname {
   font-size: 2vw;
@@ -29,7 +30,7 @@ html {
   height: 40vw;
   float: right;
   padding-right: 13vw;
-  padding-top: 1vw;
+  padding-top: 3vw;
 }
 
 a {
@@ -43,6 +44,14 @@ a {
   font-size: 3vw;
   padding: 0.3vw;
 
+}
+
+.slick-prev:before {
+  color: #000000 !important;
+
+}
+.slick-next:before {
+  color: #000000 !important;
 }
 
 .video-square iframe{
